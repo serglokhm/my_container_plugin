@@ -3,8 +3,6 @@
     xmlns="http://schemas.nativescript.org/tns.xsd"
     xmlns:ui="nativescript-my-container-component/scrollview"
 >
-    
-
     <StackLayout>
         <ui:MyScrollView 
             stopDrag="onStopDrag"
@@ -19,7 +17,6 @@
                     <Label text="{{ $value }}" margin="10" />
                 </Repeater.itemTemplate>
             </Repeater>
-                    
         </ui:MyScrollView>
     </StackLayout>
 </Page>
