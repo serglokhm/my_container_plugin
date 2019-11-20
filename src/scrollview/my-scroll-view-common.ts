@@ -16,9 +16,6 @@ export abstract class MyScrollViewBase extends ScrollView implements MyScrollVie
 
     public addEventListener(arg: string, callback: any, thisArg?: any) {
         super.addEventListener(arg, callback, thisArg);
-        console.log(">".repeat(50));
-        console.log("addEventListener", arg);
-        console.log(">".repeat(50));
         if (
             arg === MyScrollViewBase.scrollEvent ||
             arg === MyScrollViewBase.beginDragEvent ||
